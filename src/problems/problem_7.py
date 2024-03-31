@@ -6,7 +6,7 @@ def look_smart(sentence):
     This function replaces all the words in a sentence that are short (less than
     three letters) with "paradigm shifting" just to look smart.
 
-    :param sentence: The phrase to sensor
+    :param sentence: The phrase to make smarter
     """
     # Replace the code below with your own code
     smart_sentence = ""
