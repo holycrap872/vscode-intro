@@ -9,10 +9,7 @@ def any_dogs(word_list):
 
     :param word_list: The list of words to check for the presence of dogs
     """
-    for a in word_list:
-        if a.lower() == "dog":
-            return "dogs seen"
-    return "no dogs"
+    return "dogs seen"
 
 
 # ------------------------------------------------------------------------------

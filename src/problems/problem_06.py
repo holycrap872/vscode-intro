@@ -9,11 +9,7 @@ def sum_of_positive_integers_in_list(int_list):
     :param int_list: The list of numbers
     """
     # Replace the code below with your own code
-    s = 0
-    for e in int_list:
-        if e > 0:
-            s = s + e
-    return s
+    return 0
 
 
 # ------------------------------------------------------------------------------
