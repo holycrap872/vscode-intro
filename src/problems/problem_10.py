@@ -53,6 +53,6 @@ if ret != [2, 3, 5, 7, 11, 13]:
 
 
 if total_wrong == 0:
-    print("Overall: Woohoo! All tests have been passed for Problem 9!")
+    print("Overall: Woohoo! All tests have been passed for Problem 10!")
 else:
     print("Overall: There's still work to do!")

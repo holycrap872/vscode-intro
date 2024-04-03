@@ -60,6 +60,6 @@ if ret != "encyclopedia":
 
 
 if total_wrong == 0:
-    print("Overall: Woohoo! All tests have been passed for Problem 7!")
+    print("Overall: Woohoo! All tests have been passed for Problem 8!")
 else:
     print("Overall: There's still work to do!")
