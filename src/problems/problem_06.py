@@ -6,7 +6,7 @@ def sum_of_positive_integers_in_list(int_list):
     This function adds all of the positive integers in a list and returns the
     result.
 
-    :param l: The list of numbers
+    :param int_list: The list of numbers
     """
     # Replace the code below with your own code
     s = 0

@@ -3,9 +3,12 @@
 
 def count_nums_between(int_list, min_num, max_num):
     """
-    This function counts the number of integers that are
+    This function counts the number of integers in a list that are between
+    `min_num` and `max_num` (inclusive). For example, given t
 
-    :param l: The list of numbers
+    :param int_list: The list of numbers
+    :param min_num: The minimum number to look for numbers "between"
+    :param max_num: The maximum number to look for numbers "between"
     """
     # Replace the code below with your own code
     ret = 0

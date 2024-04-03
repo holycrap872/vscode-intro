@@ -6,6 +6,8 @@ def any_dogs(word_list):
     This function checks a list of words to see if there are any instances of
     the word "dog". If there is, then the function returns "dogs seen".
     Otherwise, the function returns "no dogs".
+
+    :param word_list: The list of words to check for the presence of dogs
     """
     for a in word_list:
         if a.lower() == "dog":

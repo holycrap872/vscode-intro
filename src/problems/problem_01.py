@@ -5,8 +5,8 @@ def add_two_integers(int_1, int_2):
     """
     This function adds two integers together and returns the result.
 
-    :param x: The first number
-    :param y: The second number
+    :param int_1: The first number
+    :param int_2: The second number
     """
     # Replace the code below with your own code
     return int_1 + int_2
