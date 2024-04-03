@@ -22,9 +22,47 @@ def fibonacci(desired_len):
         return ret
 
 
-assert fibonacci(0) == []
-assert fibonacci(-10) == []
-assert fibonacci(1) == [1]
-assert fibonacci(5) == [1, 1, 2, 3, 5]
-assert fibonacci(8) == [1, 1, 2, 3, 5, 8, 13, 21]
-print("Woohoo! All tests have been passed for Problem 8!")
+# ------------------------------------------------------------------------------
+# Tests: Do not make changes below this line
+# ------------------------------------------------------------------------------
+total_wrong = 0
+
+# Test 1
+ret = fibonacci(0)
+if ret != []:
+    print("Test 1: Uh oh, 0 returned", ret)
+    total_wrong = total_wrong + 1
+
+
+# Test 2
+ret = fibonacci(-10)
+if ret != []:
+    print("Test 2: Uh oh, -10 returned", ret)
+    total_wrong = total_wrong + 1
+
+
+# Test 3
+ret = fibonacci(1)
+if ret != [1]:
+    print("Test 3: Uh oh, 1 returned", ret)
+    total_wrong = total_wrong + 1
+
+
+# Test 4
+ret = fibonacci(5)
+if ret != [1, 1, 2, 3, 5]:
+    print("Test 4: Uh oh, 5 returned", ret)
+    total_wrong = total_wrong + 1
+
+
+# Test 5
+ret = fibonacci(8)
+if ret != [1, 1, 2, 3, 5, 8, 13, 21]:
+    print("Test 5: Uh oh, 8 returned", ret)
+    total_wrong = total_wrong + 1
+
+
+if total_wrong == 0:
+    print("Overall: Woohoo! All tests have been passed for Problem 8!")
+else:
+    print("Overall: There's still work to do!")
